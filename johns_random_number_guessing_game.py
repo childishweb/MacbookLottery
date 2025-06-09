@@ -13,6 +13,6 @@ print("Welcome to James's Macbook lottery! Guess 6 numbers (1-45).")
 guesses = [get_guess(f"Number {i+1}: ") for i in range(6)]
 
 if guesses == secret_numbers:
-    print("Holy shit...i'm ruined")
+    print("Holy shit...I'm ruined")
 else:
     print("HAHAHAH you FUCKING loser!!!! The numbers were:", secret_numbers)
